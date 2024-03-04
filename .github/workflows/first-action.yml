@@ -5,4 +5,4 @@ jobs:
     runs-on: unbuntu-latest
     steps:
       - name: Dispaly the output of echo commands
-        run: echo "This is my first workflow run"
+        run: echo "Hello world"
