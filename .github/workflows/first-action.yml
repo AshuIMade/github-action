@@ -2,7 +2,7 @@ name: Run shell commands
 on: [push]
 jobs:
   my-first-shell-execution:
-    runs-on: unbuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Dispaly the output of echo commands
         run: echo "Hello world"
